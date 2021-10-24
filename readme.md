@@ -1,4 +1,4 @@
-WELCOME TO THE CHADBOT 
+# WELCOME TO THE CHADBOT 
 
 a bot made for absolutely chads
 

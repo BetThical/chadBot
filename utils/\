@@ -1,0 +1,21 @@
+from discord import *
+from discord.ext import commands
+import lyricsgenius
+from main import *
+
+class lyrics(commands.Cog):
+    def __init__(self,bot):
+        self.bot=bot
+        self.genius=Genius()
+
+    @commands.command()
+    async def lyrics(ctx):
+        if ctx.voice_client.is_playing() == True:
+            song= genius.search_song(video.title, video.author)
+            await ctx.send("```" + song.lyrics + "```")
+        else:
+            send("No song is playing right now")
+
+def setup(bot):
+    bot.add_command(lyrics.lyrics)
+

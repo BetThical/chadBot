@@ -39,5 +39,5 @@ for util in bot.utils:
 #-------------------------------running the bot when executing this program file---------------------------------------
 
 if __name__=='__main__':
-    runner()  # makes the bot to run UwU
+    runner()  # makes the bot to run 
 

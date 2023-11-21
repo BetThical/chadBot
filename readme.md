@@ -1,4 +1,4 @@
 # WELCOME TO THE CHADBOT 
 
-a bot made for absolutely chads o.o
+Silly bot i made to my server
 
